@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A309547F2A92572200240942 /* opiniaoplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A309547E2A92572200240942 /* opiniaoplayApp.swift */; };
+		A309547F2A92572200240942 /* OpiniaoplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A309547E2A92572200240942 /* OpiniaoplayApp.swift */; };
 		A30954812A92572200240942 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30954802A92572200240942 /* ContentView.swift */; };
 		A30954832A92572400240942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30954822A92572400240942 /* Assets.xcassets */; };
 		A30954862A92572400240942 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30954852A92572400240942 /* Preview Assets.xcassets */; };
 		A30954902A92572500240942 /* opiniaoplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A309548F2A92572500240942 /* opiniaoplayTests.swift */; };
 		A309549A2A92572500240942 /* opiniaoplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30954992A92572500240942 /* opiniaoplayUITests.swift */; };
 		A309549C2A92572500240942 /* opiniaoplayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A309549B2A92572500240942 /* opiniaoplayUITestsLaunchTests.swift */; };
+		A309BB6C2A92DDB70062ADF8 /* PropagandaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A309BB6B2A92DDB70062ADF8 /* PropagandaService.swift */; };
+		A32CEA402A925A780030F96E /* ConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32CEA3F2A925A780030F96E /* ConfigService.swift */; };
+		A32CEA432A925E310030F96E /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32CEA422A925E310030F96E /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +37,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A309547B2A92572200240942 /* opiniaoplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = opiniaoplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A309547E2A92572200240942 /* opiniaoplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = opiniaoplayApp.swift; sourceTree = "<group>"; };
+		A309547B2A92572200240942 /* Opiniaoplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opiniaoplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A309547E2A92572200240942 /* OpiniaoplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpiniaoplayApp.swift; sourceTree = "<group>"; };
 		A30954802A92572200240942 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A30954822A92572400240942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A30954852A92572400240942 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A309548B2A92572500240942 /* opiniaoplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = opiniaoplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A309548B2A92572500240942 /* OpiniaoplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpiniaoplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A309548F2A92572500240942 /* opiniaoplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = opiniaoplayTests.swift; sourceTree = "<group>"; };
-		A30954952A92572500240942 /* opiniaoplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = opiniaoplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30954952A92572500240942 /* OpiniaoplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpiniaoplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30954992A92572500240942 /* opiniaoplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = opiniaoplayUITests.swift; sourceTree = "<group>"; };
 		A309549B2A92572500240942 /* opiniaoplayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = opiniaoplayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A309BB6A2A9263AD0062ADF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Opiniaoplay/Info.plist; sourceTree = "<group>"; };
+		A309BB6B2A92DDB70062ADF8 /* PropagandaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PropagandaService.swift; path = Opiniaoplay/Services/PropagandaService.swift; sourceTree = SOURCE_ROOT; };
+		A32CEA3F2A925A780030F96E /* ConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigService.swift; sourceTree = "<group>"; };
+		A32CEA422A925E310030F96E /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,7 @@
 		A30954722A92572200240942 = {
 			isa = PBXGroup;
 			children = (
+				A309BB6A2A9263AD0062ADF8 /* Info.plist */,
 				A309547D2A92572200240942 /* opiniaoplay */,
 				A309548E2A92572500240942 /* opiniaoplayTests */,
 				A30954982A92572500240942 /* opiniaoplayUITests */,
@@ -84,9 +92,9 @@
 		A309547C2A92572200240942 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A309547B2A92572200240942 /* opiniaoplay.app */,
-				A309548B2A92572500240942 /* opiniaoplayTests.xctest */,
-				A30954952A92572500240942 /* opiniaoplayUITests.xctest */,
+				A309547B2A92572200240942 /* Opiniaoplay.app */,
+				A309548B2A92572500240942 /* OpiniaoplayTests.xctest */,
+				A30954952A92572500240942 /* OpiniaoplayUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +102,9 @@
 		A309547D2A92572200240942 /* opiniaoplay */ = {
 			isa = PBXGroup;
 			children = (
-				A309547E2A92572200240942 /* opiniaoplayApp.swift */,
-				A30954802A92572200240942 /* ContentView.swift */,
+				A32CEA412A925E190030F96E /* Views */,
+				A32CEA3E2A925A650030F96E /* Services */,
+				A309547E2A92572200240942 /* OpiniaoplayApp.swift */,
 				A30954822A92572400240942 /* Assets.xcassets */,
 				A30954842A92572400240942 /* Preview Content */,
 			);
@@ -127,12 +136,30 @@
 			path = opiniaoplayUITests;
 			sourceTree = "<group>";
 		};
+		A32CEA3E2A925A650030F96E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A32CEA3F2A925A780030F96E /* ConfigService.swift */,
+				A309BB6B2A92DDB70062ADF8 /* PropagandaService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A32CEA412A925E190030F96E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A30954802A92572200240942 /* ContentView.swift */,
+				A32CEA422A925E310030F96E /* ChatView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A309547A2A92572200240942 /* opiniaoplay */ = {
+		A309547A2A92572200240942 /* Opiniaoplay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A309549F2A92572500240942 /* Build configuration list for PBXNativeTarget "opiniaoplay" */;
+			buildConfigurationList = A309549F2A92572500240942 /* Build configuration list for PBXNativeTarget "Opiniaoplay" */;
 			buildPhases = (
 				A30954772A92572200240942 /* Sources */,
 				A30954782A92572200240942 /* Frameworks */,
@@ -142,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = opiniaoplay;
+			name = Opiniaoplay;
 			productName = opiniaoplay;
-			productReference = A309547B2A92572200240942 /* opiniaoplay.app */;
+			productReference = A309547B2A92572200240942 /* Opiniaoplay.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A309548A2A92572500240942 /* opiniaoplayTests */ = {
+		A309548A2A92572500240942 /* OpiniaoplayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A30954A22A92572500240942 /* Build configuration list for PBXNativeTarget "opiniaoplayTests" */;
+			buildConfigurationList = A30954A22A92572500240942 /* Build configuration list for PBXNativeTarget "OpiniaoplayTests" */;
 			buildPhases = (
 				A30954872A92572500240942 /* Sources */,
 				A30954882A92572500240942 /* Frameworks */,
@@ -160,14 +187,14 @@
 			dependencies = (
 				A309548D2A92572500240942 /* PBXTargetDependency */,
 			);
-			name = opiniaoplayTests;
+			name = OpiniaoplayTests;
 			productName = opiniaoplayTests;
-			productReference = A309548B2A92572500240942 /* opiniaoplayTests.xctest */;
+			productReference = A309548B2A92572500240942 /* OpiniaoplayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A30954942A92572500240942 /* opiniaoplayUITests */ = {
+		A30954942A92572500240942 /* OpiniaoplayUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A30954A52A92572500240942 /* Build configuration list for PBXNativeTarget "opiniaoplayUITests" */;
+			buildConfigurationList = A30954A52A92572500240942 /* Build configuration list for PBXNativeTarget "OpiniaoplayUITests" */;
 			buildPhases = (
 				A30954912A92572500240942 /* Sources */,
 				A30954922A92572500240942 /* Frameworks */,
@@ -178,9 +205,9 @@
 			dependencies = (
 				A30954972A92572500240942 /* PBXTargetDependency */,
 			);
-			name = opiniaoplayUITests;
+			name = OpiniaoplayUITests;
 			productName = opiniaoplayUITests;
-			productReference = A30954952A92572500240942 /* opiniaoplayUITests.xctest */;
+			productReference = A30954952A92572500240942 /* OpiniaoplayUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A30954762A92572200240942 /* Build configuration list for PBXProject "opiniaoplay" */;
+			buildConfigurationList = A30954762A92572200240942 /* Build configuration list for PBXProject "Opiniaoplay" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +246,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A309547A2A92572200240942 /* opiniaoplay */,
-				A309548A2A92572500240942 /* opiniaoplayTests */,
-				A30954942A92572500240942 /* opiniaoplayUITests */,
+				A309547A2A92572200240942 /* Opiniaoplay */,
+				A309548A2A92572500240942 /* OpiniaoplayTests */,
+				A30954942A92572500240942 /* OpiniaoplayUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A32CEA402A925A780030F96E /* ConfigService.swift in Sources */,
+				A32CEA432A925E310030F96E /* ChatView.swift in Sources */,
+				A309BB6C2A92DDB70062ADF8 /* PropagandaService.swift in Sources */,
 				A30954812A92572200240942 /* ContentView.swift in Sources */,
-				A309547F2A92572200240942 /* opiniaoplayApp.swift in Sources */,
+				A309547F2A92572200240942 /* OpiniaoplayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +314,12 @@
 /* Begin PBXTargetDependency section */
 		A309548D2A92572500240942 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A309547A2A92572200240942 /* opiniaoplay */;
+			target = A309547A2A92572200240942 /* Opiniaoplay */;
 			targetProxy = A309548C2A92572500240942 /* PBXContainerItemProxy */;
 		};
 		A30954972A92572500240942 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A309547A2A92572200240942 /* opiniaoplay */;
+			target = A309547A2A92572200240942 /* Opiniaoplay */;
 			targetProxy = A30954962A92572500240942 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -417,8 +447,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"opiniaoplay/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PU9R9S6L3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Opiniaoplay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -429,7 +461,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dmdev.opiniaoplay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opiniaotv.opiniaoplaytv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -445,8 +477,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"opiniaoplay/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PU9R9S6L3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Opiniaoplay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,7 +491,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dmdev.opiniaoplay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opiniaotv.opiniaoplaytv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +514,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/opiniaoplay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/opiniaoplay";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Opiniaoplay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Opiniaoplay";
 			};
 			name = Debug;
 		};
@@ -499,7 +533,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/opiniaoplay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/opiniaoplay";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Opiniaoplay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Opiniaoplay";
 			};
 			name = Release;
 		};
@@ -540,7 +574,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A30954762A92572200240942 /* Build configuration list for PBXProject "opiniaoplay" */ = {
+		A30954762A92572200240942 /* Build configuration list for PBXProject "Opiniaoplay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A309549D2A92572500240942 /* Debug */,
@@ -549,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A309549F2A92572500240942 /* Build configuration list for PBXNativeTarget "opiniaoplay" */ = {
+		A309549F2A92572500240942 /* Build configuration list for PBXNativeTarget "Opiniaoplay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A30954A02A92572500240942 /* Debug */,
@@ -558,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A30954A22A92572500240942 /* Build configuration list for PBXNativeTarget "opiniaoplayTests" */ = {
+		A30954A22A92572500240942 /* Build configuration list for PBXNativeTarget "OpiniaoplayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A30954A32A92572500240942 /* Debug */,
@@ -567,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A30954A52A92572500240942 /* Build configuration list for PBXNativeTarget "opiniaoplayUITests" */ = {
+		A30954A52A92572500240942 /* Build configuration list for PBXNativeTarget "OpiniaoplayUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A30954A62A92572500240942 /* Debug */,
